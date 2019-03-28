@@ -18,7 +18,7 @@ server:
 spring:
   application:
     name: PLAT-SERVICE-TEST  #服务的名字
-  profiles:dev
+  profiles:test
 eureka:
   client:
     service-url:
