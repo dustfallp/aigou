@@ -15,7 +15,7 @@ spring:
   profiles: dev
 feign:
   hystrix:
-    enabled: true
+    enabled: true #开启熔断支持
 eureka:
   client:
     service-url:
@@ -38,7 +38,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka/  #服务注册的注册中心的地址   
+      defaultZone: http://localhost:7001/eureka/  #服务注册的注册中心的地址
 mybatis-plus:
   mapper-locations: classpath:cn/itsource/aigou/mapper/*Mapper.xml
   type-aliases-package: cn.itsource.aigou.domain
