@@ -13,9 +13,6 @@ spring:
     username: root
     password: 123456
 profiles: dev
-feign:
-   hystrix:
-       enabled: true
 eureka:
   client:
     service-url:
